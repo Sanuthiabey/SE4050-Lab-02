@@ -1,0 +1,10 @@
+What happens when the number of hidden nodes increase?
+
+With very few hidden nodes, the network doesn’t have enough parameters to capture the underlying patterns in the data, so it underfits and yields low accuracy.
+Increasing the number of hidden nodes raises the model’s capacity to represent more complex relationships, so it usually fits the data better and accuracy improves.
+
+
+
+Can you explain the pattern of the accuracy when the hidden nodes increase?
+
+When you add more hidden nodes, accuracy first goes up, then stays almost the same after a point, and if you add too many, the model can get worse because it starts memorizing instead of learning.
